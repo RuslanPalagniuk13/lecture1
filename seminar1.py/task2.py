@@ -6,6 +6,7 @@
 numbers = input('Введите 5 числ через пробел:  ')
 numbers = numbers.split(' ')
 maximum = int (numbers[0])
+print(numbers)
 for i in numbers:
     i= int(i)
     if maximum < i:
